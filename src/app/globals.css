@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clip-path-custom {
+  clip-path: path('M0,0 C20,0 20,100 0,100 Z'); /* Adjust these values */
+}
